@@ -1,27 +1,33 @@
 <h1 align="center">PROYECTO TELEFÉRICO</h1>
 <p>En este apartado se añadirán los requerimientos para la creación del sistema solicitado.</p>
 
-<h2>Descripción del sistema</h2>
+<h2>📝 Descripción del sistema</h2>
 <p></p>En este ejercicio, se desarrollará un sistema de control para un teleférico utilizando Java, expresiones lambda, relaciones entre clases y conceptos clave de programación orientada a objetos (POO). El objetivo es diseñar un sistema que administre las operaciones de un teleférico, incluida la gestión de las cabinas y los usuarios.</p>
 <p>Un teleférico es un medio de transporte utilizado en áreas montañosas o turísticas para transportar personas de una ubicación a otra mediante cabinas suspendidas en cables. El sistema de control del teleférico debe ser capaz de gestionar múltiples cabinas y usuarios.</p>
 
-<h2>Requerimientos del sistema</h2>
+<h2>🔧 Requerimientos del sistema</h2>
 <p>El sistema de control requiere los siguientes elementos:</p>
 <h3>Cabinas:</h3>
-Cada cabina tiene un identificador único y una capacidad máxima de pasajeros.
-Las cabinas pueden estar en dos estados: en movimiento o detenidas.
-El sistema debe permitir la creación, eliminación y movimiento de cabinas.
+<ul>
+  <li>Cada cabina tiene un identificador único y una capacidad máxima de pasajeros.</li>
+  <li>Las cabinas pueden estar en dos estados: en movimiento o detenidas.</li>
+  <li>El sistema debe permitir la creación, eliminación y movimiento de cabinas.</li>
+</ul>
 <h3>Usuarios:</h3>
-Cada usuario tiene un nombre y una edad.
-Los usuarios pueden solicitar viajes en el teleférico.
-El sistema debe controlar el acceso de los usuarios a las cabinas, asegurándose de que no excedan la capacidad máxima.
-Operaciones del sistema:
-El sistema debe permitir que los usuarios soliciten viajes en el teleférico.
-Debe haber una función que determine la disponibilidad de cabinas para un viaje en particular.
-Las cabinas deben moverse automáticamente entre estaciones, pero también pueden ser controladas manualmente si es necesario.
-El sistema debe garantizar la seguridad de los usuarios, evitando sobrecargar las cabinas.
+<ul>
+  <li>Cada usuario tiene un nombre y una edad.</li>
+  <li>Los usuarios pueden solicitar viajes en el teleférico.</li>
+  <li>El sistema debe controlar el acceso de los usuarios a las cabinas, asegurándose de que no excedan la capacidad máxima.</li>
+</ul>
+<h3>Operaciones del sistema:</h3>
+<ul>
+  <li>El sistema debe permitir que los usuarios soliciten viajes en el teleférico.</li>
+  <li>Debe haber una función que determine la disponibilidad de cabinas para un viaje en particular.</li>
+  <li>Las cabinas deben moverse automáticamente entre estaciones, pero también pueden ser controladas manualmente si es necesario.</li>
+  <li>El sistema debe garantizar la seguridad de los usuarios, evitando sobrecargar las cabinas.</li>
+</ul>
 
-<h2>Objetivo</h2>
+<h2>📎 Objetivo</h2>
 <p>A continuación están las actividades a desarrollar:</p>
 
 <h3>Diseño del sistema:</h3>
