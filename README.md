@@ -1,8 +1,13 @@
-<h1 align="center">'·. 🌬️ Teleférico 🚠 .·'</h1>
+<p align="center"><img width=100% src="https://kotorcablecar.com/img/img-page_info/1/hero-info-koto-cable-car.webp"/></p>
+
+<h1 align="center">'·. 🌬️ Teleférico LWD 🚠 .·'</h1>
+<p align="center"><i><b>L</b>ong <b>W</b>ay <b>D</b>own</i></p>
 <p>En este apartado se hablará de las características del sistema, su funcionalidad y finalmente las distintas pruebas realizadas con el fin de solucionar errores de haberlos.</p>
 
 ## Índice
 - [En proceso...]()
+
+------
 
 <h2>Base de datos</h2>
 <p>Para la base que será utlizada para el aplicativo, se hizo uso de las siguientes tecnologías:</p>
@@ -62,3 +67,11 @@ create table pasajero(
 <h3>Modelo UML</h3>
 <p>Una vez completado el anterior modelo, se ejecuta la opción Reverse Engineer en el apartado de Database en MySQL Workbench. Dando como resulta el siguiente diagrama:</p>
 <p align="center"><img width=80% src="./media/UML.png"/></p>
+
+------
+
+<h2>Sistema</h2>
+<p>Para el desarrolo del sistema del aplicativo, se hizo uso de las siguientes tecnologías:</p>
+
+- IntelliJ IDEA: Como entorno de desarrollo para Java.
+- Java: Como el lenguaje que será utilizado para el desarrollo del aplicativo.
